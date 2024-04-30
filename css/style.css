@@ -1,0 +1,1117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+
+/* 3lines */
+.line{
+    width: 150px;
+    height: 1px;
+    border-radius: 10px;
+    background-color: #FF305B;
+    position: relative;
+    margin: auto;
+    margin: 5px auto;
+}
+.line::after{
+    content: '';
+    width: 80px;
+    height: 1px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #FF305B;
+    top: 5px;
+    transform: translateX(-50%);
+}
+.line::before{
+    content: '';
+    width: 80px;
+    height: 1px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #FF305B;
+    bottom: 5px;
+    transform: translateX(-50%);
+}
+
+
+/* Homee section */
+
+#home{
+    background-image: url(../images/hero\ img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.bg-layer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+.nav-bar{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+.nav-bar h2 a{
+    color: rgb(255, 48, 91);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 25px;
+    float: left;
+    padding: 18px 0;
+    margin: 0 610px 0 60px;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-family:"Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: rgb(255, 223, 229);
+    margin: 0 10px;
+    padding: 24px 0;
+    float: left;
+}
+.nav-bar a:hover{
+    color: #FF305B;
+}
+.nav-bar .homee{
+    color: rgb(255, 48, 91) ;
+}
+.caption{
+    text-align: center;
+    color: white;
+    margin-top: 220px;
+} 
+.caption h1{
+    color: #FF305B;
+    padding: 20px 0;
+    font-family: Source Sans;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 77px;
+
+}
+.caption p.hello{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+
+.text-animation::after {
+    content: "";
+    animation: typing 20s ease-in infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      content: "|";
+    }
+  
+    1% {
+      content: "d|";
+    }
+  
+    2% {
+      content: "de|";
+    }
+  
+    3% {
+      content: "des|";
+    }
+  
+    4% {
+      content: "desi|";
+    }
+  
+    5% {
+      content: "desig|";
+    }
+  
+    6% {
+      content: "design|";
+    }
+  
+    7% {
+      content: "designe|";
+    }
+  
+    8% {
+      content: "designer|";
+    }
+  
+    9% {
+      content: "designe|";
+    }
+  
+    10% {
+      content: "design|";
+    }
+  
+    11% {
+      content: "desig|";
+    }
+  
+    12% {
+      content: "desi|";
+    }
+  
+    13% {
+      content: "des|";
+    }
+  
+    14% {
+      content: "de|";
+    }
+  
+    15% {
+      content: "d|";
+    }
+  
+    16% {
+      content: "|";
+    }
+  
+    17% {
+      content: "d|";
+    }
+  
+    18% {
+      content: "de|";
+    }
+  
+    19% {
+      content: "dev|";
+    }
+  
+    20% {
+      content: "deve|";
+    }
+  
+    21% {
+      content: "devel|";
+    }
+  
+    22% {
+      content: "develo|";
+    }
+  
+    23% {
+      content: "develop|";
+    }
+  
+    24% {
+      content: "develope|";
+    }
+  
+    25% {
+      content: "developer|";
+    }
+  
+    26% {
+      content: "develope|";
+    }
+  
+    27% {
+      content: "develop|";
+    }
+  
+    28% {
+      content: "develo|";
+    }
+  
+    29% {
+      content: "devel|";
+    }
+  
+    30% {
+      content: "deve|";
+    }
+  
+    31% {
+      content: "dev|";
+    }
+  
+    32% {
+      content: "de|";
+    }
+  
+    33% {
+      content: "d|";
+    }
+  
+    34% {
+      content: "|";
+    }
+  
+    35% {
+      content: "d|";
+    }
+  
+    36% {
+      content: "de|";
+    }
+  
+    37% {
+      content: "des|";
+    }
+  
+    38% {
+      content: "desi|";
+    }
+  
+    39% {
+      content: "desig|";
+    }
+  
+    40% {
+      content: "design|";
+    }
+  
+    41% {
+      content: "designe|";
+    }
+  
+    42% {
+      content: "designer|";
+    }
+  
+    43% {
+      content: "designe|";
+    }
+  
+    44% {
+      content: "design|";
+    }
+  
+    45% {
+      content: "desig|";
+    }
+  
+    46% {
+      content: "desi|";
+    }
+  
+    47% {
+      content: "des|";
+    }
+  
+    48% {
+      content: "de|";
+    }
+  
+    49% {
+      content: "d|";
+    }
+  
+    50% {
+      content: "|";
+    }
+  
+    51% {
+      content: "d|";
+    }
+  
+    52% {
+      content: "de|";
+    }
+  
+    53% {
+      content: "dev|";
+    }
+  
+    54% {
+      content: "deve|";
+    }
+  
+    55% {
+      content: "devel|";
+    }
+  
+    56% {
+      content: "develo|";
+    }
+  
+    57% {
+      content: "develop|";
+    }
+  
+    58% {
+      content: "develope|";
+    }
+  
+    59% {
+      content: "developer|";
+    }
+  
+    60% {
+      content: "develope|";
+    }
+  
+    61% {
+      content: "develop|";
+    }
+  
+    62% {
+      content: "develo|";
+    }
+  
+    63% {
+      content: "devel|";
+    }
+  
+    64% {
+      content: "deve|";
+    }
+  
+    65% {
+      content: "dev|";
+    }
+  
+    66% {
+      content: "de|";
+    }
+  
+    67% {
+      content: "d|";
+    }
+  
+    68% {
+      content: "|";
+    }
+  
+    69% {
+      content: "d|";
+    }
+  
+    70% {
+      content: "de|";
+    }
+  
+    71% {
+      content: "dev|";
+    }
+  
+    72% {
+      content: "deve|";
+    }
+  
+    73% {
+      content: "devel|";
+    }
+  
+    74% {
+      content: "develo|";
+    }
+  
+    75% {
+      content: "develop|";
+    }
+  
+    76% {
+      content: "develope|";
+    }
+  
+    77% {
+      content: "developer|";
+    }
+  
+    78% {
+      content: "develope|";
+    }
+  
+    79% {
+      content: "develop|";
+    }
+  
+    80% {
+      content: "develo|";
+    }
+  
+    81% {
+      content: "devel|";
+    }
+  
+    82% {
+      content: "deve|";
+    }
+  
+    83% {
+      content: "dev|";
+    }
+  
+    84% {
+      content: "de|";
+    }
+  
+    85% {
+      content: "d|";
+    }
+  
+    86% {
+      content: "|";
+    }
+  
+    87% {
+      content: "d|";
+    }
+  
+    88% {
+      content: "de|";
+    }
+  
+    89% {
+      content: "des|";
+    }
+  
+    90% {
+      content: "desi|";
+    }
+  
+    91% {
+      content: "desig|";
+    }
+  
+    92% {
+      content: "design|";
+    }
+  
+    93% {
+      content: "designe|";
+    }
+  
+    94% {
+      content: "designer|";
+    }
+  
+    95% {
+      content: "designe|";
+    }
+  
+    96% {
+      content: "design|";
+    }
+  
+    97% {
+      content: "desig|";
+    }
+  
+    98% {
+      content: "desi|";
+    }
+  
+    99% {
+      content: "des|";
+    }
+  
+    100% {
+      content: "de|";
+    }
+  }
+
+/* heloo section */
+
+.heloo{
+    width: 100%;
+    margin: 80px auto;
+    
+}
+.img-parent ,.about-content{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.img-parent{
+    margin: 10px 40px 0 100px;
+    width: 35%;
+    border: 8px solid #555555;
+    border-radius: 5px;
+    position: relative;
+}
+.img-parent .img-child{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+}
+.img-child img{
+    width: 100%;
+    border-radius: 5px;
+}
+.cover{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease 0s;
+    transform: translateY(100%);
+    overflow: hidden;
+}
+.img-parent .img-child:hover .cover{
+    transform: translateY(0);
+}
+.icons-hover{
+    margin: 250px auto ;
+    text-align: center;
+}
+.icons-hover i{
+color: white;
+padding: 10px;
+font-size: 20px;
+line-height: 20px;
+font-weight: 400;
+transition: all 10ms;
+}
+.icons-hover i:hover{
+color: rgb(255, 48, 91);
+
+}
+.about-content{
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+    padding: 10px 0 10px 20px;
+}
+.about-content h2{
+    font-size: 34px;
+    color: rgb(51, 51, 51);
+    font-family: "Source Sans 3", sans-serif;
+    line-height: 22px;
+    font-weight: 600;
+    position: relative;
+    margin-left: 15px;
+
+
+}
+.before{
+    width: 4px;
+    height: 28px;
+    background-color: #FF305B;
+    position: absolute;
+    top: 30px;
+}
+.about-content p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    line-height: 25px;
+}
+hr{
+    border-style: dashed;
+    border-width: 0.2px;
+    color: #999999;
+    margin-top: 20px;
+}
+.info-list ul{
+    display: inline-block;
+}
+.info-list ul{
+    display: inline-block;
+}
+ul li span{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(51, 51, 51);
+    margin-right: 8px;
+}
+ul li{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(85, 85, 85);
+    margin: 25px 25px 25px 0;
+}
+.mail-link{
+    text-decoration: none;
+    color: rgb(85, 85, 85)    ;
+}
+.list2{
+    margin-left: 20px;
+}
+button{
+    background-color: #FF305B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #EC2403;
+    transition-duration: 1s;
+}
+.btn2{
+    margin-left: 10px;
+}
+
+/* Our Services */
+
+.Our-Services{
+    width: 100%;
+    margin: auto;
+    background-color: #F1F1F1;
+    padding: 80px 0 10px 0;
+    text-align: center;
+    
+}
+.service-card{
+    width: 25%;
+    padding: 30px 20px;
+    float: left;
+    text-align: center;
+    margin: 40px auto;
+}
+.service-card:hover{
+    background-color: white;
+    box-shadow: 0 3px 7px  rgb(182, 182, 182);
+    transition:  0.3s ease 0s;
+
+}
+.service-card:hover .icoon{
+   transform: scale(1.3);
+}
+.service-card h4{
+font-family: "Source Sans 3", sans-serif;
+font-size: 24px;
+line-height: 26px;
+font-weight: 600;
+color: rgb(51, 51, 51);
+padding: 20px 0;
+
+}
+.service-card p{
+    font-family: Roboto, sans-serif;
+font-size: 16px;
+line-height: 25px;
+font-weight: 400;
+color: rgb(51, 51, 51);
+
+}
+.container h2{
+    color: #333333;
+    font-size: 40px;
+    line-height: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    padding: 20px 0; 
+}
+ 
+
+/* our portfolio */
+.portfolio{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+.img-card{
+    width: 33.33%;
+    margin: 10px 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-right: 15px solid transparent;
+}
+.img-card img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+
+}
+.img-cover{
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+.img-cover:hover{
+    background-color: rgba(0, 0, 0, .5);
+    transition-duration: .5s ;
+}
+.menu-list ul{
+    text-align: center;
+}
+.menu-list  li{
+    display: inline-block;
+    padding: 10px;
+
+}
+.menu-list li a{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+}
+
+
+/* mid-section */
+
+.mid-sec{
+    width: 100%;
+    background-color: #F1F1F1;
+    margin: 30px auto;
+    padding: 100px 50px;
+}
+.mid-sec-item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.mid-sec-item i{
+font-size: 26px;
+font-weight:400 ;
+line-height: 26px;
+color: rgb(255, 48, 91);
+margin-bottom: 10px;
+}
+.bold{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: rgb(51, 51, 51)    ;
+    line-height: 29px;
+}
+.light{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(85, 85, 85);
+    margin-top: 20px;
+
+}
+
+
+/* client'sFB */
+.client-fb{
+    width: 100%;
+    margin: 80px auto;
+    background-color: white;
+    text-align: center;
+}
+.FB-card{
+    width: 60%;
+    margin: 50px auto;
+    background-image: linear-gradient(145deg,#FF305B 20% , #F1F1F1 20%);
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: auto;
+}
+.fb-img{
+    width: 15%;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.fb-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.fb-content{
+    width: 70%;
+    text-align: left;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    margin-top: -80px;
+
+}
+.fb-content h4{
+    font-family: Source Sans;
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+ .fb-content span{
+    font-family: Source Sans;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(119, 119, 119)    ;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+#Location{
+    color: rgb(119, 119, 119)    ;
+
+}
+.fb-content p{
+    font-family: Roboto, sans-serif    ;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(85, 85, 85);
+    margin: 10px 0;
+}
+.fb-content i{
+    color: rgb(241, 195, 13)    ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 10px 0 ;
+}
+.movement{
+    width: 10%;
+    margin: -35px auto 0 ;
+}
+.oven{
+    width: 30px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #FF305B;
+    display: inline-block;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #FF305B;
+    background-color: transparent;
+    display: inline-block;
+
+}
+
+/* our blog section  */
+
+.our-blog{
+    width: 100%;
+    background-color: #F1F1F1;
+    margin: 40px 0px;
+    padding: 60px 0;
+    text-align: center;
+}
+.blog-card{
+    width: 30%;
+    background-color: white;
+    margin-top: 50px;
+    float: left;
+}
+.blog-image,.blog-frame{
+    width: 100%;
+}
+.blog-image img , .blog-frame img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+.cards{
+    width: 90% ;
+    margin:  0 auto;
+}
+.mid-frame{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.blog-card .blog-image img{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+.trans-btn{
+    background-color: transparent;
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+#card-id{
+    text-align: start;
+}
+.blog-content{
+    margin-left: 10px;
+}
+.blog-content span{
+    font-family: Roboto, sans-serif    ;
+    font-weight: 400;
+    color: rgb(85, 85, 85)    ;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+    display: block;
+
+}
+.blog-content h4 a{
+    font-family: Source Sans;
+    font-weight: 600;
+    color: rgb(0, 0, 0)    ;
+    font-size: 24px;
+    line-height: 26px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+}
+.blog-content h4 a:hover{
+    color: #FF305B ;
+    transition-duration: .5s;
+}
+.blog-content p{
+    font-family: Source Sans;
+    font-weight: 400;
+    color:  rgb(85, 85, 85);
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+/* contact us section */
+
+.contact-us{
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+}
+.contact-us h2{
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    line-height: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    padding: 20px 0; 
+}
+.form{
+    margin-top: 40px;
+}
+.form-sec{
+width: 65%;
+margin: auto;
+text-align: left;
+}
+.first-line{
+    width: 100%;
+}
+.input1 , .input2{
+    width: 48%;
+    font-family: Roboto, sans-serif    ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.input3 , textarea{
+    width: 100%;
+}
+.form input{
+    height: 40px;
+}
+.form input , textarea{
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin: 8px 0;
+}
+textarea{
+    resize: both;
+    font-family: Roboto, sans-serif    ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 8px;
+
+}
+.input2{
+    float: right;
+}
+.input1{
+    float: left;
+}
+#form-btn{
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height: 38px;
+font-weight: 400;
+padding: 2px 18px;
+text-align: left;
+}
+.form-btn:hover{
+    background-color: #EC2403;
+}
+
+/* Foooter */
+.footer{
+    width: 100%;
+    background-color: #333333;
+    padding: 54px 0;
+    color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+
+}
+.icons{
+    padding: 15px 0;
+}
+.icons .floating{
+    margin: 0 10px;
+    font-family: FontAwesome;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.icons .floating:hover{
+    color: rgb(255, 48, 91);
+}
+.footer p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.footer p span{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.footer p span a{
+    text-decoration: none;
+    color: rgb(255, 48, 91);
+}
+.footer p span a:hover{
+    text-decoration: underline;
+}
